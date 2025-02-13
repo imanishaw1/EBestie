@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBESTIE - Admin Support & Marketing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="E.png" alt="EBESTIE Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Price Plan</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h1>About Us</h1>
+        <p>EBESTIE provides top-tier admin support, marketing, and bookkeeping services to help businesses thrive.</p>
+    </section>
+    
+    <section id="services">
+        <h1>Our Services</h1>
+        <ul>
+            <li>Virtual Administrative Support</li>
+            <li>Marketing Strategy & Social Media Management</li>
+            <li>Bookkeeping & Financial Organization</li>
+        </ul>
+    </section>
+    
+    <section id="pricing">
+        <h1>Pricing Plans</h1>
+        <p>Choose a plan that suits your business needs. Contact us for custom packages.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 EBESTIE Global. All rights reserved.</p>
+    </footer>
+</body>
+</html>
