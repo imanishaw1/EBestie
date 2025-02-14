@@ -5,17 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EBESTIE - Admin Support & Marketing</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <img src="E.png" alt="EBESTIE Logo" class="logo">
-        <nav>
-            <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#pricing">Price Plan</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <img src="E.png" alt="EBESTIE Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#services" class="dropbtn">Services</a>
+                        <div class="dropdown-content">
+                            <a href="#admin">Admin Support</a>
+                            <a href="#marketing">Marketing</a>
+                            <a href="#bookkeeping">Bookkeeping</a>
+                        </div>
+                    </li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact" class="cta">Get Started</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
     <section id="about">
@@ -25,16 +37,26 @@
     
     <section id="services">
         <h1>Our Services</h1>
-        <ul>
-            <li>Virtual Administrative Support</li>
-            <li>Marketing Strategy & Social Media Management</li>
-            <li>Bookkeeping & Financial Organization</li>
-        </ul>
+        <div class="service-grid">
+            <div class="service-box" id="admin">
+                <h2>Virtual Admin Support</h2>
+                <p>Streamline your operations with our expert virtual assistants.</p>
+            </div>
+            <div class="service-box" id="marketing">
+                <h2>Marketing & Social Media</h2>
+                <p>Grow your brand with strategic marketing and content creation.</p>
+            </div>
+            <div class="service-box" id="bookkeeping">
+                <h2>Bookkeeping</h2>
+                <p>Keep your finances in check with professional bookkeeping services.</p>
+            </div>
+        </div>
     </section>
     
     <section id="pricing">
         <h1>Pricing Plans</h1>
         <p>Choose a plan that suits your business needs. Contact us for custom packages.</p>
+        <button class="cta">Get a Quote</button>
     </section>
     
     <footer>
@@ -42,3 +64,5 @@
     </footer>
 </body>
 </html>
+
+   
